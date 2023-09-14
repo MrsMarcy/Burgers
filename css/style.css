@@ -1,0 +1,235 @@
+* {
+    margin:0;padding:0;border:0;
+    font-family: 'Roboto', sans-serif;
+}
+/* The header and footer positing*/
+header,footer {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25%;
+}
+footer {
+    padding: 40px;
+    flex-direction: row;
+}
+/* sets the header styles*/
+header img {
+    height: 85px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    display: inline;
+    margin-left: 15px;
+}
+.body2, .body3, .body4 {
+    flex: 1;
+    width: 1000px; /* Set the desired height */
+}
+/* the upper body, sets the background image*/
+.body {
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    margin-bottom: 20px;
+    background-image:url('/images/hero-image.jpg');
+    background-size:cover; 
+}
+.body h1 {
+    font-size: 37px;
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    margin-bottom: 80px;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* the 2nd section Everyday Categories*/
+.body2 {
+    margin: auto 10%;
+}
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    padding: 30px 0;
+    max-width: 900px;
+}
+.title p {
+    margin-top: 20px;
+   line-height: 30px;
+   font-size: large;
+}
+.column {
+    text-align: center;
+
+}
+.column p {
+    font-size: 17px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.img-box {
+    max-width: 280px;
+    height: 250px;
+}
+.img-box img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Healthy Recipes of the Week category*/
+.color {
+    background-color: #dadfea;
+    width: 100%;
+}
+.body3 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.img-box2{
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.img-box2 img {
+    width: auto;
+    height: 100%;
+}
+.body4 {
+    margin: 0 auto 75px auto;
+    
+}
+.img-box3 {
+    width: 275px;
+    height: 275px;
+}
+.img-box3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+    background-color: lightgray;
+}
+.eat p {
+    padding-top: 30px;
+    text-align: center;
+    width: 295px;
+}
+
+/* Recipe Page*/
+.body5 {
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    background-image:url('/images/burger.jpg');
+    background-size:cover; 
+    background-position: center;
+}
+.body5 h1 {
+    font-size: 37px;
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    margin-bottom: 80px;
+}
+.burger-table {
+    background-color: #dadfea;
+    display: flex;
+    justify-content: center;
+}
+.middle {
+    width: 1000px;
+}
+caption {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 35px;
+}
+table, th, td {
+    border: 0;
+}
+td {
+    padding-right: 100px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+table {
+    margin: 30px 0;
+}
+.page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page3 {
+    width: 1000px;
+}
+.title-burger {
+    text-align: center;
+    margin-top: 75px;
+}
+.star{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #A63223;
+}
+.save {
+    color: white;
+    background-color: #A63223;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.printer {
+    width: 25px;
+    height: 25px;
+}
+.quote2 {
+    background-color: #EEF0F4;
+}
+.quote {
+    text-align: center;
+    background-color: #EEF0F4;
+    padding: 40px 150px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #575656;
+}
+.recipe-holder {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item {
+    width: 100%;
+    padding-top: 50px;
+    line-height: 30px;
+}
+.flex-item ul,.flex-item ol{
+    padding-left:20px;
+}
+.flex-item ol li{
+    margin-bottom: 20px;
+}
+.flex-item ol :last-child {
+    margin-bottom: 130px;
+}
+.flex-item h1 {
+    padding-bottom: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+.spice {
+    margin: 20px 0 0 20px;
+}
